@@ -4,9 +4,9 @@
 
 #include <ibus.h>
 
-#define IBUS_TYPE_ENCHANT_ENGINE	\
-	(ibus_enchant_engine_get_type ())
+#define IBUS_TYPE_WHISPER_ENGINE	\
+	(ibus_whisper_engine_get_type ())
 
-GType   ibus_enchant_engine_get_type    (void);
+GType   ibus_whisper_engine_get_type    (void);
 
-#endif
+#endif // __ENGINE_H__

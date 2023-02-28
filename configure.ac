@@ -56,12 +56,6 @@ PKG_CHECK_MODULES(IBUS, [
     ibus-1.0 >= 1.3.0
 ])
 
-# check enchant
-PKG_CHECK_MODULES(ENCHANT, [
-    enchant
-])
-
-
 # Define python version
 AC_ARG_WITH(python,
     AS_HELP_STRING([--with-python[=PATH]],
